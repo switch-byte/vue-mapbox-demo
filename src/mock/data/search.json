@@ -1,0 +1,63 @@
+{
+  "type": "FeatureCollection",
+  "query": [
+    "北京谊发建筑工程有限公司"
+  ],
+  "features": [
+    {
+      "id": "poi.257698060068",
+      "type": "Feature",
+      "place_type": [
+        "poi"
+      ],
+      "relevance": 1,
+      "properties": {
+        "foursquare": "4db2dde9ec8e571a35c686d7",
+        "landmark": true,
+        "address": "春熙路",
+        "category": "nightclub, club, night club, disco"
+      },
+      "text": "北京谊发建筑工程有限公司",
+      "place_name": "春熙路北口, 春熙路, Chengdu Shi, Sichuan 610020, China",
+      "center": [
+        104.075828,
+        30.660315
+      ],
+      "geometry": {
+        "coordinates": [
+          104.075828,
+          30.660315
+        ],
+        "type": "Point"
+      },
+      "context": [
+        {
+          "id": "postcode.66711089",
+          "text": "610020"
+        },
+        {
+          "id": "locality.8260145",
+          "wikidata": "Q1360027",
+          "text": "Jinjiang Qu"
+        },
+        {
+          "id": "place.313393",
+          "wikidata": "Q30002",
+          "text": "Chengdu Shi"
+        },
+        {
+          "id": "region.82993",
+          "short_code": "CN-SC",
+          "wikidata": "Q19770",
+          "text": "Sichuan"
+        },
+        {
+          "id": "country.8753",
+          "short_code": "cn",
+          "wikidata": "Q148",
+          "text": "China"
+        }
+      ]
+    }
+  ]
+}
