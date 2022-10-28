@@ -18,14 +18,22 @@ export default defineComponent({
 
       const map = new Mapboxgl.Map({
         container: mapElement.value,
-        // 默认风格
+        // 默认风格-3D
         // style: 'mapbox://styles/fly0619/cl9p28vct002m14p0t0bjhp2i',
-        // blue
-        style: 'mapbox://styles/fly0619/cl9ppw2r7000o15nwddv49c7j',
+        // blue 地球-3D
+        // style: 'mapbox://styles/fly0619/cl9ppw2r7000o15nwddv49c7j',
+        // 平铺风格-2D
+        style:'mapbox://styles/fly0619/cl9s4gpun007h14p07g9846ub',
         center: userLocation.value,
         // zoom: 15,
         // 设置缩放级别，对应缩放级别可以看到（0:地球、3:一个大陆、4:大岛、6:大河流、10:大型道路、15:建筑物）
+        // 3D风格 zoom
+        // zoom: 1.5,
         zoom: 1.5,
+        // 最小缩放级别（平铺风格-2D）
+        minZoom: 1.5,
+        // 最大缩放级（平铺风格-2D）
+        maxZoom: 15
       });
 
       const myLocationPopUp = new Mapboxgl.Popup().setLngLat(userLocation.value).setHTML(`
